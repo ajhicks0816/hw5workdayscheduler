@@ -1,16 +1,17 @@
 # hw5workdayscheduler
 
 ## Purpose/Description
-The purpose of this homework assignment is to create a a basic calendar application that allows a user to save events for each hour of the workday. 2
+Create a basic calendar application that allows a user to save events for each hour of the workday.
 
 ## Usage
-
+This calendar tool can be used to 
 ## Challenges
 
 ## Motivation
+Continuing to build up my confidence in the process of coding. Understanding the process of how to write what is being asked of me in 
 
 ## Mock-up
 
 ---
 Git Hub [https://github.com/ajhicks0816/hw5workdayscheduler]  
-Work Day Scheduler [https://ajhicks0816.github.io/hw5workdayscheduler/]41459999
+Work Day Scheduler [https://ajhicks0816.github.io/hw5workdayscheduler/]
