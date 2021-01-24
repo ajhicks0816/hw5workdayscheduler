@@ -4,11 +4,13 @@
 Create a basic calendar application that allows a user to save events for each hour of the workday.
 
 ## Usage
-This calendar tool can be used to 
+This work day sceduler tool can be used as a reminder about day to day activities..
+
 ## Challenges
+Understanding the process of how to write what is being asked of me in 
 
 ## Motivation
-Continuing to build up my confidence in the process of coding. Understanding the process of how to write what is being asked of me in 
+
 
 ## Mock-up
 

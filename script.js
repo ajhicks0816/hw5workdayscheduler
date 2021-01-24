@@ -1,9 +1,9 @@
 // Moment vs Luxon
-// var currentDate = luxon.DateTime.local();
-// var topDate = $("#currentDay");
-// var printDate = currentDate.toLocaleString(luxon.DateTime.DATE_MED_WITH_WEEKDAY)
-// topDate.text(printDate);
-// console.log(printDate);
+var currentDate = luxon.DateTime.local();
+var topDate = $("#currentDay");
+var printDate = currentDate.toLocaleString(luxon.DateTime.DATE_MED_WITH_WEEKDAY)
+topDate.text(printDate);
+console.log(printDate);
 
 var todo;
 
@@ -21,7 +21,7 @@ function loadtodos() {
     var taskHour = taskDate.getHours()
 
     for (let i = 0; i < 24; i++) {
-        var slotHour = i = 1
+        var slotHour = i + 1
         var timeStatus = getHourStatus(taskHour, slotHour)
         console.log("loading data for " + slotHour + " and hour status is")
         $("textarea#" + slotHour).text(localStorage.getItem(slotHour))
@@ -30,9 +30,21 @@ function loadtodos() {
 }
 
 function getHourStatus(currentHour, testHour) {
-    if (testHour < currentHour) return "past"
-    if (testHour > currentHour) return "future"
-    if (testHour === currentHour) return "present"
+    // currentHour = 14
+    console.log(testHour)
+    console.log(currentHour)
+    
+    if (testHour < currentHour) {
+        console.log("<")
+        return "past" }
+    
+    if (testHour > currentHour) {
+        console.log(">")
+        return "future"}
+
+    if (testHour === currentHour) {
+        console.log("===")
+        return "present"}
 
     return "present"
 }
