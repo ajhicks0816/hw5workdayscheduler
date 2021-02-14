@@ -1,4 +1,4 @@
-# hw5workdayscheduler
+# Workday Scheduler
 
 ## Purpose/Description
 Create a basic calendar application that allows a user to save events for each hour of the workday.
@@ -13,5 +13,11 @@ Understanding the process of the code. How to continue to build upon what is giv
 Completing the assignment.
 
 ---
-Git Hub [https://github.com/ajhicks0816/hw5workdayscheduler]  
-Work Day Scheduler [https://ajhicks0816.github.io/hw5workdayscheduler/]
+### Technologies Used
+* HTML
+* CSS
+* JavaScript
+
+### Links
+Git Hub [https://github.com/ayejayhicks/workdayscheduler]  
+Work Day Scheduler [https://ayejayhicks.github.io/workdayscheduler/]
